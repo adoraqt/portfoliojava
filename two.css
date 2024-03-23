@@ -1,0 +1,115 @@
+body{
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-top: 50px;
+}
+
+.pic{
+    width: 500px;
+    height: 480px;
+   
+}
+
+.sectionOne{
+    display: flex;
+    background: lightpink;
+}
+
+.sectionTwo{
+    background: lightpink;  
+    box-shadow: 0px 0px 10px black ,
+    0px 0px 10px white;
+    }
+
+h1{
+    margin-left: 20px;
+}
+
+
+.sectionOne p{
+    margin-left: 2px;
+    width: 400px; ;
+    height: 250px;
+    font-size: 18px;
+    border: 2px solid;
+    background-color: #f7c9f8;
+    padding: 20px;
+    border-radius: 10px;  
+
+}
+
+
+button{
+    background-color: lightblue;
+    margin-top: 2px;
+    margin-left: 20px;
+    font-size: 20px;
+    font-weight: bolder;
+   border-radius: 9px;
+
+}
+
+button:hover{
+    color: brown;
+    box-shadow: 0px 0px 10px white,
+    0px 0px 10px white,
+    0px 0px 10px white;
+    }
+.pic2{
+    width: 169px;
+    height: 170px;
+    }
+.pic3{
+    width: 200px;
+    height: 170px;
+}
+
+.pic4{
+    width: 200px;
+    height: 170px;
+    
+}
+.classM {
+    text-align: center;
+    margin: 20px;
+    padding: 30px ;
+    border-radius: 10px;
+  
+  }
+.classM h1 {
+    font-size: 24px;
+ 
+  }
+
+.classM p {
+        font-size: 20px;
+        line-height: 1.5;
+        padding: 10px ;
+      
+        
+        
+    }
+.classM img {
+    max-width: 100%;
+    height: auto;
+   
+  }
+
+
+.p1{
+    padding: 20px ;
+   
+}
+.p2{
+    padding: 30px ;  
+    
+}
+.p3{
+    padding: -10% ;
+    margin-top: 5%;
+
+}
+
+  

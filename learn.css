@@ -1,0 +1,39 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: wheat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+p {
+    width: 70%;
+    padding: 20px;
+    background-color: lavender;
+    border-radius: 10px;
+    box-shadow: white; 
+    text-align: center;
+}
+
+p:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2);
+}
+
+
+p::after {
+    content: "\201D"; 
+    font-size: 2rem;
+    color: #007bff;
+}
+
+p:hover {
+    color:brown; 
+}
